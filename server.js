@@ -35,8 +35,8 @@ app.use(
   cors({
     origin: [
       '*',
-      'http://localhost:3001',
-      //'https://recordsfrontend.vercel.app',
+      //'http://localhost:3001',
+      'https://rabbitrecords.vercel.app/',
     ],
     credentials: true,
   })
