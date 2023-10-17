@@ -4,7 +4,7 @@ const User = require('../models/user');
 async function requireAuth(request, response, next) {
   //read token
   const token = request.cookies.Authorization;
-  // console.log('req token', token);
+  console.log('req token', token);
   try {
     //decode token
     const decoded = jwt.verify(token, process.env.SECRET);
