@@ -36,7 +36,7 @@ app.use(
     origin: [
       '*',
       //'http://localhost:3001',
-      'https://rabbitrecords.vercel.app/',
+      'https://rabbitrecords.vercel.app',
     ],
     credentials: true,
   })
